@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/poste%20master/Desktop/projet%20pfe/mlruns/570725605435226181/bb60867700db4c5d9462eca8cad296cc/artifacts
+end_time: 1777983731759
+entry_point_name: ''
+experiment_id: '570725605435226181'
+lifecycle_stage: active
+run_id: bb60867700db4c5d9462eca8cad296cc
+run_name: Prediction_Churn_20260505_1420
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777983723940
+status: 3
+tags: []
+user_id: poste master

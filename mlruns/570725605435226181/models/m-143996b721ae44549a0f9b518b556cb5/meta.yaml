@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/poste%20master/Desktop/projet%20pfe/mlruns/570725605435226181/models/m-143996b721ae44549a0f9b518b556cb5/artifacts
+creation_timestamp: 1777983724874
+experiment_id: '570725605435226181'
+last_updated_timestamp: 1777983731739
+model_id: m-143996b721ae44549a0f9b518b556cb5
+model_type: null
+name: model
+source_run_id: bb60867700db4c5d9462eca8cad296cc
+status: 2
+status_message: null

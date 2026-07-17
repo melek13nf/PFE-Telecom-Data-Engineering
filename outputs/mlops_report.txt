@@ -1,0 +1,68 @@
+============================================================
+  RAPPORT MLOPS — Tunisie Telecom PFE
+  Généré le : 2026-05-05 14:22:11
+============================================================
+
+  Expérience MLflow  : TunisieTelecom_PFE
+  Dossier MLflow     : C:\Users\poste master\Desktop\projet pfe\mlruns
+  Méthode CV         : StratifiedKFold (5 folds)
+  Seuil drift        : 0.03
+
+────────────────────────────────────────────────────────────
+  MODÈLE : Activation_Forfait_DATA
+  Run ID : e410cf69ea504490b2ec3adc85162b47
+────────────────────────────────────────────────────────────
+  AUC CV Moyenne  : 0.7180 ± 0.0062
+  AP  CV Moyenne  : 0.4598
+  Acc CV Moyenne  : 0.6299
+  F1  CV Moyenne  : 0.5429
+
+  AUC par fold :
+    Fold 1 : 0.7170  █████████████████████
+    Fold 2 : 0.7237  █████████████████████
+    Fold 3 : 0.7088  █████████████████████
+    Fold 4 : 0.7146  █████████████████████
+    Fold 5 : 0.7257  █████████████████████
+
+  Statut Drift    : ✅ STABLE
+  Modèle sauvegardé : model_forfait_cv.joblib
+
+────────────────────────────────────────────────────────────
+  MODÈLE : Prediction_Churn
+  Run ID : bb60867700db4c5d9462eca8cad296cc
+────────────────────────────────────────────────────────────
+  AUC CV Moyenne  : 0.9504 ± 0.0037
+  AP  CV Moyenne  : 0.4548
+  Acc CV Moyenne  : 0.8762
+  F1  CV Moyenne  : 0.4019
+
+  AUC par fold :
+    Fold 1 : 0.9543  ████████████████████████████
+    Fold 2 : 0.9554  ████████████████████████████
+    Fold 3 : 0.9483  ████████████████████████████
+    Fold 4 : 0.9479  ████████████████████████████
+    Fold 5 : 0.9461  ████████████████████████████
+
+  Statut Drift    : ✅ STABLE
+  Modèle sauvegardé : model_churn_cv.joblib
+
+============================================================
+  HISTORIQUE DES MÉTRIQUES
+============================================================
+  Activation_Forfait_DATA
+    Meilleur AUC  : 0.718
+    Dernier AUC   : 0.718
+    Dernier run   : 2026-05-05 14:21
+
+  Prediction_Churn
+    Meilleur AUC  : 0.9504
+    Dernier AUC   : 0.9504
+    Dernier run   : 2026-05-05 14:22
+
+============================================================
+  COMMANDES MLFLOW UI
+────────────────────────────────────────────────────────────
+  Pour visualiser les expériences dans le navigateur :
+  $ mlflow ui
+  Ouvrir : http://localhost:5000
+============================================================

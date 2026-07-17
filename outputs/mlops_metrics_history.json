@@ -1,0 +1,12 @@
+{
+  "Activation_Forfait_DATA": {
+    "last_auc": 0.718,
+    "last_run_date": "2026-05-05 14:21",
+    "best_auc": 0.718
+  },
+  "Prediction_Churn": {
+    "last_auc": 0.9504,
+    "last_run_date": "2026-05-05 14:22",
+    "best_auc": 0.9504
+  }
+}
